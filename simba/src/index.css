@@ -5,6 +5,61 @@ body {
   background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%); /* w3c */
 }
 
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 button {
   cursor: pointer;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+  border-radius: 4px;
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  text-align: center;
+  line-height: 16px;
+  padding: 6px 12px;
+  float: right;
+}
+
+form {
+
+  padding: 40px;
+  border: 1px solid #1f5f61;
+  border-radius: 10px;
+  width: 300px;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  height: 22px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #777;
+}
+
+input.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: -15px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
